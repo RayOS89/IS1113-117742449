@@ -7,7 +7,18 @@ background-color: rgb(44,62,80);
 #section3{
 background-color: rgb(51,153,204);
 }
+#section4{
+background-color: rgb(140,200,255);
+}
+#section5{
+background-color: rgb(70,100,80);
+}
+#section6{
+background-color: rgb(90,10,204);
+}
+#section7{
+background-color: rgb(100,80,255);
+}
 .section{
-    text-align: Center;
     color: white;
 }

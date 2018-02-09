@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Select Product</title>
-        
+        <link rel= "stylesheet" href="mystylesheets.css" type ="text/css">
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
@@ -23,14 +23,14 @@
         
             <br/>
         
-            <label for "aws">
+            <label for "AWS">
               <input type="radio" id ="aws" name="product" onClick="disablebtnProceed()"/>
                 aws @ $300
             </label>
         
             <br/>
             <br/>
-        
+         
             <label for "subtotal">
                 Sub Total
                 <input type="text" id ="subtotal" value="0.00" readonly/>
