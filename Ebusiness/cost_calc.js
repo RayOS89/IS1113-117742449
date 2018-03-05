@@ -1,7 +1,8 @@
+/* global $ */
 function calcSub(){
     var argSubTotal;
     
-    if document.getElementById('salesforce').checked){
+    if (document.getElementById('salesforce').checked){
         argSubTotal = 100
     }
         else {
@@ -23,6 +24,6 @@ function enablebtnProceed(){
     $('#btnProceed').prop("disabled",false);
 }
 
-function enablebtnProceed(){
+function disablebtnProceed(){
     $('#btnProceed').prop("disabled",true);
 }

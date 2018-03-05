@@ -1,4 +1,15 @@
 .mainheading{
      text-align:center;
-     background-color:rgb(190,206,255);
-}        
+}
+.main-header{ 
+    text-align:center;
+}
+.main-footer{
+    text-align:center;
+}
+.html{
+    background-image:(Images/SES-9_launch_25486858116.jpg)
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    background-position:center;
+}
