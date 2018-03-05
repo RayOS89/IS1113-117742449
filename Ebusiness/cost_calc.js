@@ -19,6 +19,26 @@ function display(parm1){
     
     enablebtnProceed();
 }
+function calcSub(){
+    var argSubTotal;
+    
+    if (document.getElementById('aws').checked){
+        argSubTotal = 300
+    }
+        else {
+        argSubTotal = 100
+        }
+    
+    display(argSubTotal);
+}
+
+function display(parm1){
+    
+    document.getElementById("subtotal").value = parm1;
+    document.getElementById("total").value = parm1;
+    
+    enablebtnProceed();
+}
 
 function enablebtnProceed(){
     $('#btnProceed').prop("disabled",false);
@@ -27,3 +47,4 @@ function enablebtnProceed(){
 function disablebtnProceed(){
     $('#btnProceed').prop("disabled",true);
 }
+

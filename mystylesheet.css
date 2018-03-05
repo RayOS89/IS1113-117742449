@@ -1,15 +1,50 @@
-.mainheading{
-     text-align:center;
+body,html{
+    height:100%;
+    margin:0;
+    font-size:20px;
+    font-family:sans-serif;
+    font-weight:500;
+    line-height:1.8em;
+    color:rgb(10,10,10);
 }
-.main-header{ 
-    text-align:center;
-}
-.main-footer{
-    text-align:center;
-}
-.html{
-    background-image:(Images/SES-9_launch_25486858116.jpg)
-    background-repeat: no-repeat;
-    background-attachment:fixed;
+.homepageimage1, .homepageimages2, .homepageimage3{
+    position:relative;
+    opacity:0.77;
     background-position:center;
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+
+.homepageimage1{
+    background-image:url("../Images/CloudX.jpeg");
+    min-height:100%;
+}
+.homepageimage2{
+    background-image:url("../Images/AboutX.jpeg");
+    min-height:500px;
+}
+.homepageimage3{
+    background-image:url;
+    min-height:500px;
+}
+.header{
+    text-align:center;
+    margin:50px,100px;
+}
+.footer{
+    text-align:center;
+    margin:50px,100px;
+}
+.section{
+    text-align: center;
+    padding:50px,100px;
+}
+.section-light{
+    backgroundcolor:rgb(100,100,100);
+    color:grey;
+}
+.section-dark{
+    backgroundcolor:rgb(200,200,200);
+    color:white;
 }
