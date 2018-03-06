@@ -10,7 +10,11 @@ body,html{
     line-height:1.8em;
     color:rgb(10,10,10);
 }
-.homepageimage1, .homepageimages2, .homepageimage3{
+.homepageimage1, .homepageimages2, .homepageimage3,
+.pdimage1, .pdimage2, .pdimage3, 
+.intimage1, .intimage2, .intimage3,
+.webstoreimage1, .webstoreimage2, .webstoreimage3
+{
     position:relative;
     opacity:0.77;
     background-position:center;
@@ -20,7 +24,7 @@ body,html{
 }
 
 .homepageimage1{
-    background-image:url("../Images/CloudX.jpeg");
+    background-image:url("../Images/UccX.jpg");
     min-height:800px;
 }
 .homepageimage2{
@@ -31,7 +35,42 @@ body,html{
     background-image:url("../Images/LinksX.jpeg");
     min-height:500px;
 }
-
+.pdimage1{
+    background-image:url("../Images/.jpeg");
+    min-height:800px;
+}
+.pdimage2{
+    background-image:url("../Images/EduX.jpeg");
+    min-height:800px;
+}
+.pdimage3{
+    background-image:url("../Images/.jpeg");
+    min-height:800px;
+}
+.intimage1{
+    background-image:url("../Images/.jpg");
+    min-height:800px;
+}
+.intimage2{
+    background-image:url("../Images/.jpeg");
+    min-height:800px;
+}
+.intimage3{
+    background-image:url("../Images/Ses.jpeg");
+    min-height:800px;   
+}
+.webstoreimage1{
+    background-image:url("../Images/CloudX.jpeg");
+    min-height:800px;
+}
+.webstoreimage2{
+    background-image:url("../Images/AboutX.jpeg");
+    min-height:800px;
+}
+.webstoreimage3{
+    background-image:url("../Images/CloudX.jpeg");
+    min-height:800px;   
+}
 .footer{
     text-align:center;
     margin:50px,100px;
@@ -45,7 +84,7 @@ body,html{
     color:grey;
 }
 .section-dark{
-    background-color:rgb(200,200,200);
+    background-color:rgb(10,10,10);
     color:white;
 }
 .ptext{
@@ -59,17 +98,16 @@ body,html{
     text-transform: uppercase;
 }
 .btn {
-  background: #5b5f61;
-  background-image: -webkit-linear-gradient(top, #5b5f61, #404345);
-  background-image: -moz-linear-gradient(top, #5b5f61, #404345);
-  background-image: -ms-linear-gradient(top, #5b5f61, #404345);
-  background-image: -o-linear-gradient(top, #5b5f61, #404345);
-  background-image: linear-gradient(to bottom, #5b5f61, #404345);
-  -webkit-border-radius: 60;
-  -moz-border-radius: 60;
-  border-radius: 60px;
+  background-image: -webkit-linear-gradient(top);
+  background-image: -moz-linear-gradient(top);
+  background-image: -ms-linear-gradient(top);
+  background-image: -o-linear-gradient(top);
+  background-image: linear-gradient(bottom);
+  -webkit-border-radius: 25;
+  -moz-border-radius: 25;
+  border-radius: 25px;
   font-family: Arial;
-  color: #ffffff;
+  color:rgb(200,200,200);
   font-size: 16px;
   padding: 10px 20px 10px 20px;
   text-decoration: none;
