@@ -1,50 +1,77 @@
 /* global $ */
-function calcSub(){
-    var argSubTotal;
-    
-    if (document.getElementById('salesforce').checked){
-        argSubTotal = 100
-    }
-        else {
-        argSubTotal = 300
-        }
-    
-    display(argSubTotal);
-}
 
-function display(parm1){
+
+function calcSub() {
+
+    
+    var argSubTotal;
+
+    
+    if(document.getElementById('salesforce').checked) {
+
+        argSubTotal = 100;
+
+    }
+
+    else if (document.getElementById('aws').checked) {
+
+        argSubTotal = 300;
+
+    }
+
+    else if (document.getElementById('gmail').checked) {
+
+        argSubTotal = 400;
+
+    }
+
+    else {
+
+        argSubTotal = 200;
+
+    }
+
+    calcDisVatTotal(argSubTotal);
+
+}//End of calcSub()
+
+function calcDisVatTotal(parmSubTotal) {
+
+    var discountAmt = parmSubTotal * 0.05;
+
+    var tempPrice = parmSubTotal - discountAmt;
+
+    var vatAmt = tempPrice * 0.10;
+
+    var totalPrice = tempPrice + vatAmt;
+    
+    display(parmSubTotal, discountAmt, vatAmt, totalPrice);
+
+}//End of calcDisVatTotal()
+
+function display(parm1, parm2, parm3, parm4){
+
     
     document.getElementById("subtotal").value = parm1;
-    document.getElementById("total").value = parm1;
-    
-    enablebtnProceed();
-}
-function calcSub(){
-    var argSubTotal;
-    
-    if (document.getElementById('aws').checked){
-        argSubTotal = 300
-    }
-        else {
-        argSubTotal = 100
-        }
-    
-    display(argSubTotal);
-}
 
-function display(parm1){
-    
-    document.getElementById("subtotal").value = parm1;
-    document.getElementById("total").value = parm1;
-    
+    document.getElementById("discount").value = parm2;
+
+    document.getElementById("vat").value = parm3;
+
+    document.getElementById("total").value = parm4;
+
     enablebtnProceed();
-}
+
+}//End of display()
 
 function enablebtnProceed(){
-    $('#btnProceed').prop("disabled",false);
-}
 
-function disablebtnProceed(){
-    $('#btnProceed').prop("disabled",true);
-}
+    $('#btnproceed').prop('disabled', false);
 
+}//End of enablebtnProceed()
+
+function disablebtnProceed() {
+
+    $('#btnproceed').prop('disabled', true);
+
+}//End of disablebtnProcees()

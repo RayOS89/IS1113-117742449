@@ -11,7 +11,7 @@ body,html{
     color:rgb(10,10,10);
 }
 .homepageimage1, .homepageimages2, .homepageimage3,
-.pdimage1, .pdimage2, .pdimage3, 
+.pdimage1, .pdimage2, .pdimage3,.pdimage4
 .intimage1, .intimage2, .intimage3,
 .webstoreimage1, .webstoreimage2, .webstoreimage3
 {
@@ -44,8 +44,12 @@ body,html{
     min-height:800px;
 }
 .pdimage3{
-    background-image:url("../Images/.jpeg");
+    background-image:url("../Images/weqX.jpg");
     min-height:800px;
+}
+.pdimage4{
+    background-image:url("../Images/hertzX.jpg");
+    min-height:1200px;
 }
 .intimage1{
     background-image:url("../Images/.jpg");
