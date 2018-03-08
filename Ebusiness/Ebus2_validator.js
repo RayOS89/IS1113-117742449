@@ -1,5 +1,4 @@
-/*global$*/
-
+/* global $ */
 
 
 function validateDetails(){
@@ -7,16 +6,19 @@ function validateDetails(){
     
 
     var pin;
-
+    var fullname;
+    var email;
     
 
     pin= document.getElementById("user_pin").value;
+    fullname= document.getElementById("name").value;
+    email= document.getElementById("email").value;
 
     
 
-    if(pin == ""){
+    if(pin == "",fullname =="",email ==""){
 
-        alert("please enter your PIN")
+        alert("please enter your details")
 
     }
 
@@ -40,13 +42,9 @@ function validateDetails(){
 
 }
 
-
-
 function enablebtnPurchase(){
 
     $("#btnPurchase").prop("disabled", false)
-
-    
 
 }
 

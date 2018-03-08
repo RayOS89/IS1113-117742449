@@ -2,19 +2,22 @@
 <html>
     <head>
         <title>Select Product</title>
-        <link rel= "stylesheet" href="mystylesheets.css" type ="text/css">
+        <link rel= "stylesheet" href="../mystylesheet.css" type ="text/css">
         <!--jQuery-->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <script type="text/javascript" src="cost_calc.js"></script>
     </head>
     
     <body>
-    
-        <h4>Select A Product</h4>
+    <div class="webstoreimage1">
+                    <div class="ptext">
+                        <span class="border">
+		        <h4>Select A Product</h4>
+              
         
         <br/>
         
-        <form method="POST" action= "Ebus2.php">
+        <form method="post" action= "Ebus2.php">
         
             <label for="salesforce">
                 <input type="radio" id ="salesforce" name="product" checked onClick="disablebtnProceed()"/>
@@ -73,11 +76,21 @@
         
             <button type="submit" class="addcart" disabled>Add to Shopping Cart </button>
         </form>
-    
+             
             <br/>
             <button class="calculate" onClick="calcSub()">Calculate Cost</button>
             <a role="button" href="Ebus1.php">Clear Choice</a>
-   
+             </span>
+         </div>
+       </div>
+        <section class="section section-light">
+       <div class=btn><a href="../homepage.html" class ="btn btn-success">Home</a></div>
+       </section>
+       <section class="section section-dark">
+                <div class="container">
+                <footer class="footer">Copyright @ Ray O'Sullivan 2018</footer>
+                </div>
+                </section>
     </body>    
  </html>   
      
