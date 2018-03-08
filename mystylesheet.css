@@ -13,7 +13,8 @@ body,html{
 .homepageimage1, .homepageimages2, .homepageimage3,
 .pdimage1, .pdimage2, .pdimage3,.pdimage4
 .intimage1, .intimage2, .intimage3,
-.webstoreimage1, .webstoreimage2, .webstoreimage3
+.webstoreimage1, .webstoreimage2, .webstoreimage3,
+.travimage1,.travimage2,.travimage3
 {
     position:relative;
     opacity:0.77;
@@ -36,8 +37,8 @@ body,html{
     min-height:500px;
 }
 .pdimage1{
-    background-image:url("../Images/.jpeg");
-    min-height:800px;
+    background-image:url("../Images/pdX.jpg");
+    min-height:700px;
 }
 .pdimage2{
     background-image:url("../Images/EduX.jpeg");
@@ -52,15 +53,27 @@ body,html{
     min-height:1200px;
 }
 .intimage1{
-    background-image:url("../Images/.jpg");
+    background-image:url("../Images/ufcX.jpg");
     min-height:800px;
 }
 .intimage2{
-    background-image:url("../Images/.jpeg");
+    background-image:url("../Images/munsX.jpg");
     min-height:800px;
 }
 .intimage3{
-    background-image:url("../Images/Ses.jpeg");
+    background-image:url("../Images/nycX.jpeg");
+    min-height:800px;   
+}
+.travimage1{
+    background-image:url("../Images/nycX.jpg");
+    min-height:800px;
+}
+.travimage2{
+    background-image:url("../Images/japX.jpg");
+    min-height:800px;
+}
+.travimage3{
+    background-image:url("../Images/swissX.jpg");
     min-height:800px;   
 }
 .webstoreimage1{
