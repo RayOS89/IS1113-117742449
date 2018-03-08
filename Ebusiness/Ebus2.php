@@ -29,10 +29,10 @@ session_start();
             <form  method = "post" action = "Ebus3.php" >
                 
                 <label for ="name">Name</label>
-                <input type="text" id= "name" placeholder= "full name" minlenght="4">
+                <input type="text" id= "name" name="name" placeholder= "full name" minlenght="4">
                 
                 <label for ="email">Email</label>
-                <input type="text" id= "email" placeholder= "email address" minlenght="7">
+                <input type="text" id= "email" name="email" placeholder= "email address" minlenght="7">
                 
                 <label for = "user_pin">PIN</label>
                 <input type="password" id= "user_pin" placeholder="Card PIN" maxlenght="4">
