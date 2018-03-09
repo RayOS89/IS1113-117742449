@@ -10,9 +10,10 @@ body,html{
     line-height:1.8em;
     color:rgb(10,10,10);
 }
-.homepageimage1, .homepageimages2, .homepageimage3,
-.pdimage1, .pdimage2, .pdimage3,.pdimage4
+.homepageimage1, .homepageimage2, .homepageimage3,
+.pdimage1, .pdimage2, .pdimage3,.pdimage4,
 .intimage1, .intimage2, .intimage3,
+.cldimage1, .cldimage2, .cldimage3,
 .webstoreimage1, .webstoreimage2, .webstoreimage3,
 .travimage1,.travimage2,.travimage3
 {
@@ -74,6 +75,18 @@ body,html{
 }
 .travimage3{
     background-image:url("../Images/swissX.jpg");
+    min-height:800px;   
+}
+.cldimage1{
+    background-image:url("../Images/gmailX.png");
+    min-height:800px;
+}
+.cldimage2{
+    background-image:url("../Images/fbX.jpg.png");
+    min-height:800px;
+}
+.cldimage3{
+    background-image:url("../Images/instX.jpg.png");
     min-height:800px;   
 }
 .webstoreimage1{
